@@ -557,4 +557,5 @@ if (!nativeBinding) {
 }
 
 module.exports = nativeBinding
+module.exports.HttpRequest = nativeBinding.HttpRequest
 module.exports.startTcpListener = nativeBinding.startTcpListener

@@ -6,6 +6,8 @@ use std::io::Read;
 use std::net::TcpListener;
 use std::thread;
 
+mod http_request;
+
 
 #[napi]
 pub fn start_tcp_listener(port: u16) -> Result<()> {
